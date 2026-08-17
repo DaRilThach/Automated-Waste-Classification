@@ -1,0 +1,64 @@
+{
+    "model_name": "MOBILENET_V2",
+    "accuracy": 0.8482490272373541,
+    "macro_avg": {
+        "precision": 0.8246036171716188,
+        "recall": 0.8345896895343503,
+        "f1_score": 0.8277113133913668
+    },
+    "weighted_avg": {
+        "precision": 0.8546066285569242,
+        "recall": 0.8482490272373541,
+        "f1_score": 0.8501532751702061
+    },
+    "per_class": {
+        "cardboard": {
+            "vn_name": "Bìa carton",
+            "category": "Rác tái chế (Recyclable)",
+            "precision": 0.972972972972973,
+            "recall": 0.8780487804878049,
+            "f1_score": 0.923076923076923,
+            "support": 41
+        },
+        "glass": {
+            "vn_name": "Thủy tinh",
+            "category": "Rác tái chế (Recyclable)",
+            "precision": 0.7959183673469388,
+            "recall": 0.7647058823529411,
+            "f1_score": 0.7799999999999999,
+            "support": 51
+        },
+        "metal": {
+            "vn_name": "Kim loại",
+            "category": "Rác tái chế (Recyclable)",
+            "precision": 0.782608695652174,
+            "recall": 0.8780487804878049,
+            "f1_score": 0.8275862068965518,
+            "support": 41
+        },
+        "paper": {
+            "vn_name": "Giấy",
+            "category": "Rác tái chế (Recyclable)",
+            "precision": 0.9482758620689655,
+            "recall": 0.9166666666666666,
+            "f1_score": 0.9322033898305084,
+            "support": 60
+        },
+        "plastic": {
+            "vn_name": "Nhựa",
+            "category": "Rác tái chế (Recyclable)",
+            "precision": 0.8367346938775511,
+            "recall": 0.8367346938775511,
+            "f1_score": 0.8367346938775511,
+            "support": 49
+        },
+        "trash": {
+            "vn_name": "Rác hỗn hợp / Vô cơ khác",
+            "category": "Rác không tái chế (Non-recyclable)",
+            "precision": 0.6111111111111112,
+            "recall": 0.7333333333333333,
+            "f1_score": 0.6666666666666666,
+            "support": 15
+        }
+    }
+}
