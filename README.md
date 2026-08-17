@@ -20,15 +20,15 @@ Phân loại rác tại nguồn là mắt xích quan trọng nhất trong chuỗ
 
 Tập dữ liệu được phân chia theo tỉ lệ **Train (80%) / Validation (10%) / Test (10%)**:
 
-| Phân lớp (`Class`) | Tên tiếng Việt | Nhóm rác | Số lượng mẫu | Thùng rác quy định |
-| :--- | :--- | :--- | :---: | :--- |
-| **`cardboard`** | Bìa carton | ♻️ Tái chế | 403 | Thùng Xanh Dương |
-| **`glass`** | Thủy tinh | ♻️ Tái chế | 501 | Thùng Xanh Lá |
-| **`metal`** | Kim loại (vỏ lon, hộp sắt) | ♻️ Tái chế | 410 | Thùng Vàng / Xám |
-| **`paper`** | Giấy vụn, sách báo | ♻️ Tái chế | 594 | Thùng Xanh Dương |
-| **`plastic`** | Chai nhựa, đồ nhựa | ♻️ Tái chế | 482 | Thùng Cam |
-| **`trash`** | Rác vô cơ / hỗn hợp | 🗑️ Không tái chế | 137 | Thùng Đen / Xám |
-| **TỔNG CỘNG** | **6 Phân Lớp** | - | **2.527 ảnh** | - |
+| Phân lớp (`Class`) | Tên tiếng Việt | Nhóm rác | Số lượng mẫu |
+| :--- | :--- | :--- | :---: |
+| **`cardboard`** | Bìa carton | ♻️ Tái chế | 403 |
+| **`glass`** | Thủy tinh | ♻️ Tái chế | 501 |
+| **`metal`** | Kim loại (vỏ lon, hộp sắt) | ♻️ Tái chế | 410 |
+| **`paper`** | Giấy vụn, sách báo | ♻️ Tái chế | 594 |
+| **`plastic`** | Chai nhựa, đồ nhựa | ♻️ Tái chế | 482 |
+| **`trash`** | Rác vô cơ / hỗn hợp | 🗑️ Không tái chế | 137 |
+| **TỔNG CỘNG** | **6 Phân Lớp** | - | **2.527 ảnh** |
 
 ---
 
@@ -138,11 +138,11 @@ d:/TGMT/
 ---
 
 ## 🌿 6. Ý Nghĩa Thực Tiễn & Xử Lý Môi Trường
-
+ 
 Hệ thống cung cấp hướng dẫn tức thì cho từng loại rác:
-- **Cardboard (Bìa carton)**: Gấp gọn, giữ khô, tháo bỏ băng dính dơ $\rightarrow$ Bỏ thùng Xanh Dương.
-- **Glass (Thủy tinh)**: Tráng sạch, tránh vỡ gây nguy hiểm $\rightarrow$ Bỏ thùng Xanh Lá.
-- **Metal (Kim loại)**: Rửa sạch lon nước ngọt/đồ hộp, ép bẹp $\rightarrow$ Bỏ thùng Vàng/Xám.
-- **Paper (Giấy)**: Giữ phẳng, không dính dầu mỡ $\rightarrow$ Bỏ thùng Xanh Dương.
-- **Plastic (Nhựa)**: Rút hết nước, tháo nắp, ép bẹp chai nhựa $\rightarrow$ Bỏ thùng Cam.
-- **Trash (Rác khác)**: Túi nilon bẩn, rác vô cơ $\rightarrow$ Buộc kín bỏ thùng rác sinh hoạt.
+- **Cardboard (Bìa carton)**: Làm phẳng hộp, giữ khô ráo, tháo bỏ băng dính bẩn trước khi thu gom tái chế.
+- **Glass (Thủy tinh)**: Tráng sạch cặn thức ăn hoặc đồ uống, bọc cẩn thận nếu vỡ để tránh gây nguy hiểm.
+- **Metal (Kim loại)**: Rửa sạch vỏ lon nước ngọt/đồ hộp, ép bẹp để tiết kiệm diện tích.
+- **Paper (Giấy)**: Giữ phẳng và khô ráo, không lẫn dầu mỡ hay nilon.
+- **Plastic (Nhựa)**: Đổ hết chất lỏng, xúc sạch, tháo nắp và ép bẹp chai nhựa trước khi phân loại.
+- **Trash (Rác khác)**: Rác không thể tái chế (túi nilon bẩn, gốm sứ vỡ...), buộc kín và đưa vào luồng rác thải sinh hoạt thông thường.
